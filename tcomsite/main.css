@@ -1,0 +1,113 @@
+﻿section, article, header, footer, nav, aside, hgroup {
+    display: block;
+    float:none;
+}
+
+header{
+	height: 120px;	
+	background-image:url('images/header_bg.jpg');
+	background-repeat:repeat-x;
+	background-position: top;
+	color:#FFFFFF;
+}
+
+.title{	
+	padding-top:30px;
+	padding-left:10px;
+	font-size:30px;
+	color:#FFFFFF;
+	font-weight:bold;
+	
+}
+.menu{
+	padding-top:6px;
+	padding-left:35%;
+}
+
+body {
+    margin-top:0px;
+    margin-left:5%;
+    margin-bottom:0px;
+    margin-right:5%;
+    padding: 0px,0px,0px,0px;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:medium;
+	background-color: #F0F0F0;
+	/*color:#FFFFFF;*/
+}
+
+h1 {
+	font-size: 1.2em;
+}
+
+h2 {
+	font-size: 1.1em;
+}
+
+h3 {
+	font-size: 1.0em;
+}
+
+
+article {
+	float:none;
+	/*padding: 5 5 5 5;*/
+}
+
+section {
+	/*background-color:#EEEEEE;*/
+	color:#333333; 
+
+}
+
+
+nav{
+	float: left;
+}
+
+nav a:link, a:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav a:hover{
+	/*background-color:#484848;*/
+	text-shadow: 2px 2px 2px #FFFF00;
+	text-decoration: underline;
+}
+	
+.mouse {
+	font-family: Verdana, Arial , Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight:bold;
+	color: #FFFFFF;
+	padding: 6px 10px;
+	/*border: 1px solid #338899;  003366 */
+	/*-moz-box-shadow:
+		1px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	*/
+}
+
+.strikeout {
+	text-decoration: line-through;
+}
+
+footer {	
+	position:absolute;
+	bottom:0px;
+	height: 45px;	
+	width:90%;
+	background-image:url('images/footer_bg.jpg');
+	background-position:buttom;	
+	background-repeat:repeat-x;
+}
+
+
+.footer{
+	padding-top:20px;
+	font-size :10px;
+	color:#FFFFFF;
+	text-align:center;
+	
+}
